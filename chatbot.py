@@ -1,7 +1,7 @@
 import streamlit as st
 import streamlit.components.v1 as components
 
-st.title("Chatbot App using Chatbase")
+st.title(" DRUGTOX PRO CHATBOT")
 
 # Chatbot Embed Code
 chatbot_code = """
@@ -42,4 +42,4 @@ chatbot_code = """
 """
 
 # Embed chatbot in Streamlit
-components.html(chatbot_code, height=500, width=400)
+components.html(chatbot_code, height=500, width=600)
